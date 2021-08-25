@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    border-radius: 2px;
+        padding: 0 0;
+        margin: 0 0;
+}
+#img{
+    margin-left: 165px;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+}
+body{
+    font-family: Helvetica;
+    font-weight:300;
+	font-size: 16px;
+	line-height:30px;
+	color:black;
+    background-color: whitesmoke;
+	
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    margin-bottom: 0px;
+  }
+h1{
+    text-align: center;
+}
+.container{
+    max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:static;
+}
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(240, 219, 219);
+}
+input[type=email]:hover, input[type=password]:hover {
+    /*background-color:rgb(185, 179, 179);
+    outline: none;*/
+    border: black;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.c01 {
+    background-color:  #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 2px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.c02 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 2px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+#a1{
+    font-size: 14px;
+} 
+  
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 100px;
+}
+button:hover {
+    opacity:1;
+}
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    display: block;  
+    cursor: pointer; 
+    border: none;
+    background: none;
+    padding: 9px;
+    margin-top: 9px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin: 13px;
+}
+footer a:hover {
+    background: rgb(232, 245, 250);
+    background: #ddd;
+    border-radius: 13px;
+    opacity: 0.9;
+}
+footer div{
+    color: white;
+    margin-top: 21px;
+    float: right;
+    margin-right: 200px;
+}
+#twitter {
+    height: 33px;
+    width: 33px;
+    margin: 12px;
+    margin-top: -4px;
+    position: absolute;
+    right: 0%;
+    cursor: pointer;
+}
+#insta {
+    height: 28px;
+    margin: 58px;
+    margin-top: -4px;
+    position: absolute;
+    right: 0%;
+     cursor: pointer;
+}
+#gmail {
+    height: 30px;
+    margin: 99px;
+    margin-top: -5px;
+    position: absolute;
+    right: 0%;
+     cursor: pointer;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+    
+.sticky + .content {
+    padding-top: 102px;
+ }
+ nav {
+    background-color: #333;
+    overflow: hidden;
+    }
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    display: block;  
+    cursor: pointer; 
+    border: none;
+    cursor: pointer; 
+    background: none;
+    padding: 9px;
+    margin-top: 9px;
+    margin-right: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+nav a:hover {
+    background: rgb(232, 245, 250);
+    background: #ddd;
+    border-radius: 13px;
+    opacity: 0.9;
+  }
+
+.login-container button {
+    font-family: quatro,sans-serif;
+    float: right;
+    padding: 9px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-right: 18px;
+    margin-bottom: 13px;
+    margin-left: -10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+  
+.login-container button:hover {
+    background: rgb(232, 245, 250);
+    background: #ddd;
+    border-radius: 13px;
+    opacity: 0.9;
+  }
+
+.inp{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(240, 219, 219);
+}

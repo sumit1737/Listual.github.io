@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LISTUAL | Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/image/favicon2.jpeg" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h1>LISTUAL</h1>
+      
+    </header>
+   
+    <nav class="Header" id="myHeader">
+      <a href="/html/index.html">Home</a>
+      <a href="/html/getStarted.html">Get Started</a>
+      <a href="/html/supportlistual.html">Support</a>
+      <a href="/html/about us.html">About</a>
+      <a href="mailto:listual001@gmail.com">Contact Us</a>
+      <div class="login-container">
+            
+        <form action="/html/loginlistual.html">
+          <button type="submit">Log in</button>
+          </form>
+        <form action="/html/signuplistual.html">
+          <button type="submit">Sign up</button>
+        </form>
+        
+      </div>
+
+    </nav>
+
+    <main>
+      <section class="section1">
+        <h1>Engage with the LISTUAL Pontent Suite</h1>
+        <p>Tool as robust as you</p>
+        <button class="btn"><a class="abtn" href="/html/getStarted.html">Get Started - It's Free </a></button>
+        <img src="/image/hhh.png" alt="Basic Layout" width="500px" />
+      </section>
+
+      <section class="section2">
+        <h1>Keep track of everything</h1>
+        <img src="/image/today.png" alt="" />
+        <p>
+          More to do than you can keep in your head? Listual makes it simple to
+          capture tasks from anywhere. Regain clarity and calmness by getting
+          all those tasks out of your head
+        </p>
+      </section>
+
+      <section class="section3">
+        <h1>Your busy life deserves this</h1>
+        <p>
+          Set reminders to make sure important things don’t slip away. <br />
+          With powerful one-time, recurring and location based reminders, <br />
+          you can be sure critical things don’t get forgotten
+        </p>
+        <img src="/image/tutieshi_320x590_7s-1.gif" alt="" />
+      </section>
+
+      <section class="section4">
+        <h1>Focus on what matters now</h1>
+        <p>
+          Your to-do list keeps track of your priorities and shows you the best
+          task to focus on next
+        </p>
+        <div class="item">
+          <ul style="list-style-type: circle" class="ullist">
+            <li class="li1">
+              <h2>It's about doing more and making progress</h2>
+              <h4>
+                When it’s time to work, all of your tasks are captured,
+                organized, and ready to go.
+              </h4>
+            </li>
+            <li class="li2">
+              <h2>Nothing slips through the cracks</h2>
+              <h4>
+                Since there’s a place for everything, you can jot down those
+                “someday, maybe” projects to return to whenever you’re ready.
+              </h4>
+            </li>
+            <li class="li3">
+              <h2>Lower stress, increase control</h2>
+              <h4>
+                Custom Perspectives adapt to fit your workflow—no matter how
+                complex it is.
+              </h4>
+            </li>
+          </ul>
+          <img src="/image/dd599468e15ea0d9cfe0765838135468.png" alt="" />
+        </div>
+      </section>
+
+      <section class="section5">
+        <h1>Ready to be more productive?</h1>
+
+        <button class="btn1"><a class="abtn" href="/html/getStarted.html"> Get Started - It's Free </a></button>
+      </section>
+      <div class="section6">
+        <h1>Things do not happen. <br> Things are made to happen.</h1>
+        <img src="/image/footer@2x_b52d8f7c7bf19d6c702569d1072ed6a2.webp" alt="">
+      </div>
+    </main>
+    <footer>
+      <a target="_blank" href="https://twitter.com/Listual1?s=08">
+        <img id="twitter" src="/image/twitter2.png" alt=""> </a> 
+
+      <a target="_blank" href="https://www.instagram.com/listual._/">
+        <img id="insta" src="/image/insta 3.png" alt=""> </a>  
+
+      <a target="_blank" href="mailto:listual001@gmail.com"> <img id="gmail" src="/image/gmail2.png" alt=""></a>   
+      <a href="/html/terms.html">Terms</a>
+      <a href="/html/privacy.html">Privacy</a>
+      <a href="/html/security.html">Security</a>
+      <div href="#">&copy;2021 | Listual Inc. </div>
+    </footer>
+
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>

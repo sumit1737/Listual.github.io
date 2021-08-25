@@ -1,0 +1,454 @@
+*{
+    padding: 0 0;
+	margin: 0 0;
+    font-family: quatro,sans-serif;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+    }
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    display: block;  
+    cursor: pointer; 
+    border: none;
+    cursor: pointer; 
+    background: none;
+    padding: 9px;
+    margin-top: 9px;
+    margin-right: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+nav a:hover {
+    background: rgb(232, 245, 250);
+    background: #ddd;
+    border-radius: 13px;
+    opacity: 0.9;
+  }
+
+  .login-container button {
+    font-family: quatro,sans-serif;
+    float: right;
+    padding: 9px;
+    margin: 20px;
+    margin-top: 5px;
+    margin-right: 18px;
+    margin-bottom: 13px;
+    margin-left: -10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+  
+.login-container button:hover {
+    background: rgb(232, 245, 250);
+    background: #ddd;
+    border-radius: 13px;
+    opacity: 0.9;
+  }
+  footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    display: block;  
+    cursor: pointer; 
+    border: none;
+    background: none;
+    padding: 9px;
+    margin-top: 9px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin: 13px;
+}
+footer a:hover {
+    background: rgb(232, 245, 250);
+    background: #ddd;
+    border-radius: 13px;
+    opacity: 0.9;
+}
+footer div{
+    color: white;
+    margin-top: 21px;
+    float: right;
+    margin-right: 200px;
+}
+#twitter {
+    height: 33px;
+    width: 33px;
+    margin: 12px;
+    margin-top: -4px;
+    position: absolute;
+    right: 0%;
+    cursor: pointer;
+}
+#insta {
+    height: 28px;
+    margin: 58px;
+    margin-top: -4px;
+    position: absolute;
+    right: 0%;
+     cursor: pointer;
+}
+#gmail {
+    height: 30px;
+    margin: 99px;
+    margin-top: -5px;
+    position: absolute;
+    right: 0%;
+     cursor: pointer;
+}
+
+.c01{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(184, 179, 179);
+    height: 130px;
+    padding-top: 50px;
+    
+}
+
+#id01{
+    font-size: 50px;
+    font-family: quatro, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    
+}
+.c02{
+    width: 100%;
+    
+    background-color: rgb(184, 179, 179);
+    height: 90px;
+
+    
+}
+.search{
+    text-align: center;
+    
+    
+}
+input[type=text]{
+    height: 40px;
+    width: 550px;
+    font-size: 20px;
+
+
+}
+#btn{
+    width: 80px;
+    height: 35px;
+    margin-left: 7px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+}
+.btn1{
+    width: 90px;
+    height: 35px;
+    font-size: 18px;
+    margin-left: 30px;
+    background-color: coral;
+    border: 0px;
+    
+}
+.btn2{
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    margin-left: 20px;
+    background-color: cornflowerblue;
+    border: 0px;
+    
+}
+.btn3{
+    width: 110px;
+    height: 35px;
+    font-size: 18px;
+    margin-left: 20px;
+    background-color: rgb(145, 190, 100);
+    border: 0px;
+    
+}
+#btn:hover{
+    background-color: #999;
+}
+.btn1:hover{
+    background-color: goldenrod;
+}
+.btn2:hover{
+    background-color: rgb(86, 207, 207);
+}
+.btn3:hover{
+    background-color:rgb(107, 153, 37);
+}
+.email{
+    font-size: 20px;
+    font-family: quatro, sans-serif;
+    
+   
+    
+   
+}
+#id02{
+
+    color: whitesmoke; 
+    margin-left: 350px; 
+    
+}
+.a{
+    text-decoration: none;
+    color: whitesmoke;}
+
+#id03{
+    padding-left: 410px;
+    border-radius: 50%;
+    padding-top: 50px;  
+}
+
+#id05{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+ 
+}
+#id06{
+    width: 35px;
+    height: 35px;
+}
+#id10{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+#id11{
+    padding-left: 370px;
+}
+#id12{
+    color: whitesmoke;
+    margin-left: 300px;
+
+}
+.c03{
+    text-align: center;
+    font-weight: 600;
+    font-family: quatro, sans-serif;
+    font-size: 38px;
+    margin-top: 0px;
+    padding-top: 0;
+
+    
+}
+.c04{
+    
+    
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.c05{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: quatro ,sans-serif;
+    text-align: center;
+    color: grey;
+    margin-top: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+    
+.sticky + .content {
+    padding-top: 102px;
+ }
+ footer {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    display: block;  
+    cursor: pointer; 
+    border: none;
+    background: none;
+    padding: 9px;
+    margin-top: 9px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin: 13px;
+}
+footer a:hover {
+    background: rgb(232, 245, 250);
+    background: #ddd;
+    border-radius: 13px;
+    opacity: 0.9;
+}
+footer div{
+    color: white;
+    margin-top: 21px;
+    float: right;
+    margin-right: 200px;
+}
+#twitter {
+    height: 33px;
+    width: 33px;
+    margin: 12px;
+    margin-top: -4px;
+    position: absolute;
+    right: 0%;
+    cursor: pointer;
+}
+#insta {
+    height: 28px;
+    margin: 58px;
+    margin-top: -4px;
+    position: absolute;
+    right: 0%;
+     cursor: pointer;
+}
+#gmail {
+    height: 30px;
+    margin: 99px;
+    margin-top: -5px;
+    position: absolute;
+    right: 0%;
+     cursor: pointer;
+}
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+    font-family: quatro,sans-serif;
+}
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+    border:2px solid black;
+}
+#contact textarea {
+	height:100px;
+	max-width:100%;
+    resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:rgb(17, 124, 143);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:rgb(11, 91, 105);
+	
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+#contact h3 {
+	color:black;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none ;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px quatro, sans-serif; }
+
+#contact {
+	background:rgb(168, 168, 218);
+	padding:25px;
+	margin:50px 0;
+}
+body{
+
+	background-size: contain;
+    font-family: quatro,sans-serif;
+	
+}
+#id04{
+    width:100px;
+	height:100px; 
+	margin-left: 122px; 
+	border-radius: 50%;
+}
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position: static;
+	font-size: 12px;
+    color: black;
+    font-family: quatro,sans-serif;
+    font-weight:300;
+	
+	line-height:30px;
+    margin-top: 100px;
+	
+	
+}
+h3{
+	text-align: center;
+
+}
+h4{
+	color: black;
+}
+
+.a01{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.a01:hover{
+    text-shadow:2px 2px rgb(105, 47, 47);
+    
+}

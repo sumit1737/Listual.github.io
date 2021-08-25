@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/getStarted.css" />
+    <title>Get Started | Listual</title>
+    <link rel="shortcut icon" href="/image/favicon2.jpeg" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+    <link rel="shortcut icon" href="/image/favicon.png" type="image/png" />
+    <nav class="Header" id="myHeader">
+      <a href="/html/index.html">Home</a>
+      <a href="/html/getStarted.html">Get Started</a>
+      <a href="/html/supportlistual.html">Support</a>
+      <a href="/html/about us.html">About</a>
+      <a href="mailto:listual001@gmail.com">Contact Us</a>
+      <div class="login-container">
+        <form action="/html/loginlistual.html">
+          <button type="submit">Log in</button>
+        </form>
+        <form action="/html/signuplistual.html">
+          <button type="submit">Sign up</button>
+        </form>
+      </div>
+    </nav>
+    <main>
+      <section>
+        ><div id="hola">Greetings Buddy!</div>
+      </section>
+
+      <section class="secCalender">
+        <div class="container">
+          <div class="calendar">
+            <div class="month">
+              <i class="fas fa-angle-left prev"></i>
+              <div class="date">
+                <h1></h1>
+                <p></p>
+              </div>
+              <i class="fas fa-angle-right next"></i>
+            </div>
+            
+            <div class="weekdays">
+              
+              <div>Sun</div>
+              <div>Mon</div>
+              <div>Tue</div>
+              <div>Wed</div>
+              <div>Thu</div>
+              <div>Fri</div>
+              <div>Sat</div>
+            </div>
+            <button class="btn" onclick="myfunction()"><div class="days" id="days"></button></div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section></section>
+    </main>
+    
+    
+
+    <footer>
+      <a target="_blank" href="https://twitter.com/Listual1?s=08">
+        <img id="twitter" src="/image/twitter2.png" alt="" />
+      </a>
+
+      <a target="_blank" href="https://www.instagram.com/listual._/">
+        <img id="insta" src="/image/insta 3.png" alt="" />
+      </a>
+
+      <a target="_blank" href="mailto:listual001@gmail.com">
+        <img id="gmail" src="/image/gmail2.png" alt=""
+      /></a>
+      <a href="/html/terms.html">Terms</a>
+      <a href="/html/privacy.html">Privacy</a>
+      <a href="/html/security.html">Security</a>
+      <div href="#">&copy;2021 | Listual Inc.</div>
+    </footer>
+
+    <script src="/js/calender.js"></script>
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    
+      
+      function myfunction() {
+    window.open("http://127.0.0.1:5500/html/gsform.html",);
+ 
+      }
+
+    
+    
+
+    
+    
+                      
+    </script>
+    
+    
+  </body>
+</html>
